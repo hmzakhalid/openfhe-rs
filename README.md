@@ -14,6 +14,8 @@ OpenFHE-rs is a Rust interface for the OpenFHE library, which is renowned for it
 all implemented in C++.
 By providing a Rust wrapper for OpenFHE, we aim to make these advanced FHE capabilities easily accessible to Rust developers.
 
+Currently, this project uses OpenFHE version 1.2.0.
+
 Whether you're developing secure data processing applications or privacy-focused tools, OpenFHE-rs enables you to leverage the powerful encryption technologies of OpenFHE seamlessly within your Rust projects.
 
 # Installation
@@ -39,6 +41,7 @@ To build and install the OpenFHE library, follow the steps below or refer to [Op
 ```bash
 git clone https://github.com/openfheorg/openfhe-development.git
 cd openfhe-development
+git checkout tags/1.2.0
 ```
 
 2. Configure CMake
